@@ -140,14 +140,14 @@ const passi = [
   },
   {
     n: "04",
-    t: "Esci sapendo come gestirlo",
-    d: "Ti spieghiamo come rifare la piega e quando tornare per mantenere la forma.",
+    t: "Esci con il risultato finito",
+    d: "Taglio, colore o barba completati e controllati prima di lasciare il salone.",
   },
 ];
 
 const benefici = [
-  { t: "Un risultato che riconosci allo specchio", d: "Quello che chiedi viene ripetuto e confermato prima di iniziare." },
-  { t: "Prezzi chiari, comunicati prima", d: "Nessuna sorpresa al momento del conto: il costo lo sai già." },
+  { t: "Professionalità e cura del dettaglio", d: "Un approccio artigianale che rispetta il tuo stile e il tempo dedicato al servizio." },
+  { t: "Prezzi contenuti", d: "Serietà e professionalità con un rapporto qualità-prezzo apprezzato dalle recensioni." },
   { t: "Tempi rispettati", d: "Su appuntamento, per evitare attese lunghe e servizi affrettati." },
   { t: "Una forma che dura tra un taglio e l'altro", d: "Tagli costruiti per crescere bene, non solo per il primo giorno." },
 ];
@@ -316,8 +316,8 @@ function Home() {
                 },
                 {
                   icon: ShieldCheck,
-                  t: "Nessuna spiegazione",
-                  d: "Nessuno ti dice cosa è realizzabile sul tuo capello e come mantenerlo a casa.",
+                  t: "Nessuna continuità",
+                  d: "Non ti riconoscono più: ogni volta devi ricominciare da zero con qualcuno di diverso.",
                 },
               ].map((c, i) => (
                 <Reveal key={c.t} delay={i * 90}>
@@ -371,8 +371,8 @@ function Home() {
                     d: "Su appuntamento, per dedicare a ogni persona la sua fascia oraria.",
                   },
                   {
-                    t: "Ti lasciamo istruzioni pratiche",
-                    d: "Come asciugarlo, cosa evitare, ogni quanto tornare per mantenere la forma.",
+                    t: "Ti accogliamo con continuità",
+                    d: "Ci ricordiamo come porti i capelli, così ogni visita riprende da dove eravamo rimasti.",
                   },
                 ].map((s) => (
                   <li key={s.t} className="flex gap-4">
@@ -418,8 +418,7 @@ function Home() {
               Tutto quello che serve alla tua testa, in un solo salone
             </h2>
             <p className="mt-5 max-w-2xl text-base leading-relaxed text-muted-foreground">
-              Il listino aggiornato viene comunicato in salone prima di iniziare, così sai sempre cosa
-              stai spendendo.
+              Per informazioni sui prezzi e sulla disponibilità, contattaci in salone o compila il modulo.
             </p>
           </Reveal>
 
