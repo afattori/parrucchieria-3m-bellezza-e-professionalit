@@ -140,8 +140,8 @@ const passi = [
   },
   {
     n: "04",
-    t: "Esci sapendo come gestirlo",
-    d: "Ti spieghiamo come rifare la piega e quando tornare per mantenere la forma.",
+    t: "Esci con il risultato finito",
+    d: "Taglio, colore o barba completati e controllati prima di lasciare il salone.",
   },
 ];
 
