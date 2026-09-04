@@ -227,7 +227,7 @@ function Home() {
                 Il taglio giusto
                 <br />
                 nasce da un
-                <span className="text-foreground"> ascolto vero</span>
+                <span className="text-brass-dark"> ascolto vero</span>
               </h1>
 
               <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
@@ -244,6 +244,18 @@ function Home() {
                 </Button>
                 <Button asChild variant="outline" size="lg" className="rounded-full px-7">
                   <a href="#servizi">Guarda i servizi</a>
+                </Button>
+              </div>
+
+              <div className="mt-4">
+                <Button asChild variant="ghost" size="lg" className="rounded-full px-7 text-foreground hover:text-foreground">
+                  <a
+                    href="https://www.instagram.com/parrucchieria3m/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Instagram className="size-4" /> Seguici su Instagram
+                  </a>
                 </Button>
               </div>
 
@@ -437,19 +449,10 @@ function Home() {
           </div>
 
           <Reveal delay={120}>
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+            <div className="mt-8">
               <Button asChild size="lg" className="rounded-full px-7">
                 <a href="#contatti">
                   <CalendarCheck className="size-4" /> Richiedi informazioni sul servizio
-                </a>
-              </Button>
-              <Button asChild variant="outline" size="lg" className="rounded-full px-7">
-                <a
-                  href="https://www.instagram.com/parrucchieria3m/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Instagram className="size-4" /> Seguici su Instagram
                 </a>
               </Button>
             </div>
