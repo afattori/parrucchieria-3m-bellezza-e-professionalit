@@ -371,8 +371,8 @@ function Home() {
                     d: "Su appuntamento, per dedicare a ogni persona la sua fascia oraria.",
                   },
                   {
-                    t: "Ti lasciamo istruzioni pratiche",
-                    d: "Come asciugarlo, cosa evitare, ogni quanto tornare per mantenere la forma.",
+                    t: "Ti accogliamo con continuità",
+                    d: "Ci ricordiamo come porti i capelli, così ogni visita riprende da dove eravamo rimasti.",
                   },
                 ].map((s) => (
                   <li key={s.t} className="flex gap-4">
