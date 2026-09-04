@@ -418,8 +418,7 @@ function Home() {
               Tutto quello che serve alla tua testa, in un solo salone
             </h2>
             <p className="mt-5 max-w-2xl text-base leading-relaxed text-muted-foreground">
-              Il listino aggiornato viene comunicato in salone prima di iniziare, così sai sempre cosa
-              stai spendendo.
+              Per informazioni sui prezzi e sulla disponibilità, contattaci in salone o compila il modulo.
             </p>
           </Reveal>
 
