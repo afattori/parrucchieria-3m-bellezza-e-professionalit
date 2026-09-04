@@ -227,7 +227,7 @@ function Home() {
                 Il taglio giusto
                 <br />
                 nasce da un
-                <span className="text-brass-gradient"> ascolto vero</span>
+                <span className="text-foreground"> ascolto vero</span>
               </h1>
 
               <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
