@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { Instagram, MapPin, Phone, Clock } from "lucide-react";
-import logo from "@/assets/logo-3m.png.asset.json";
+const logo = { url: "/logo-3m.png" };
 
 export function Footer() {
   return (

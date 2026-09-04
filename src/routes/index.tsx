@@ -27,9 +27,9 @@ import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { Reveal } from "@/components/site/Reveal";
 import { ContactForm } from "@/components/site/ContactForm";
-import salone from "@/assets/salone.png.asset.json";
-import colore from "@/assets/colore.png.asset.json";
-import logo from "@/assets/logo-3m.png.asset.json";
+const salone = { url: "/salone.png" };
+const colore = { url: "/colore-capelli.png" };
+const logo = { url: "/logo-3m.png" };
 
 export const Route = createFileRoute("/")({
   head: () => ({
