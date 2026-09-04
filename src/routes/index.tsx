@@ -316,8 +316,8 @@ function Home() {
                 },
                 {
                   icon: ShieldCheck,
-                  t: "Nessuna spiegazione",
-                  d: "Nessuno ti dice cosa è realizzabile sul tuo capello e come mantenerlo a casa.",
+                  t: "Nessuna continuità",
+                  d: "Non ti riconoscono più: ogni volta devi ricominciare da zero con qualcuno di diverso.",
                 },
               ].map((c, i) => (
                 <Reveal key={c.t} delay={i * 90}>
