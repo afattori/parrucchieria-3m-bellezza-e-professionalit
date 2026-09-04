@@ -9,12 +9,9 @@ import {
   Phone,
   Star,
   Instagram,
-  ShieldCheck,
   Users,
-  MessageSquare,
   CalendarCheck,
   HeartHandshake,
-  Timer,
 } from "lucide-react";
 import {
   Accordion,
