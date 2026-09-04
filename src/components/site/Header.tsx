@@ -61,7 +61,7 @@ export function Header() {
 
         <div className="hidden lg:block">
           <Button asChild size="lg" className="rounded-full">
-            <a href="tel:+390716478 3">
+            <a href="tel:+3907164783">
               <Phone className="size-4" /> Prenota al 071 64783
             </a>
           </Button>
