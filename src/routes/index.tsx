@@ -300,49 +300,6 @@ function Home() {
           </div>
         </section>
 
-        {/* PROBLEMA */}
-        <section className="border-y border-border bg-secondary/50">
-          <div className="mx-auto max-w-6xl px-5 py-16 md:py-24">
-            <Reveal>
-              <p className="eyebrow">Perché tanti cambiano salone</p>
-              <h2 className="mt-3 max-w-2xl text-3xl sm:text-4xl">
-                Il problema non è il taglio. È non essere ascoltati.
-              </h2>
-              <p className="mt-5 max-w-2xl text-base leading-relaxed text-muted-foreground">
-                Chi arriva da noi spesso racconta la stessa esperienza: spiega cosa vuole e si ritrova
-                con qualcosa di diverso. Da lì nasce la sfiducia.
-              </p>
-            </Reveal>
-
-            <div className="mt-10 grid gap-5 md:grid-cols-3">
-              {[
-                {
-                  icon: Timer,
-                  t: "Servizi fatti di corsa",
-                  d: "Un taglio chiuso in cinque minuti non può rispettare la forma che avevi in mente.",
-                },
-                {
-                  icon: MessageSquare,
-                  t: "Richieste non rispettate",
-                  d: "Dici una cosa, esci con un'altra: la parte davanti resta uguale, la lunghezza sparisce.",
-                },
-                {
-                  icon: ShieldCheck,
-                  t: "Nessuna continuità",
-                  d: "Non ti riconoscono più: ogni volta devi ricominciare da zero con qualcuno di diverso.",
-                },
-              ].map((c, i) => (
-                <Reveal key={c.t} delay={i * 90}>
-                  <article className="surface-card h-full p-6">
-                    <c.icon className="size-6 text-accent" />
-                    <h3 className="mt-4 text-xl">{c.t}</h3>
-                    <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{c.d}</p>
-                  </article>
-                </Reveal>
-              ))}
-            </div>
-          </div>
-        </section>
 
         {/* SOLUZIONE */}
         <section id="metodo" className="mx-auto max-w-6xl scroll-mt-24 px-5 py-16 md:py-24">
