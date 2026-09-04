@@ -146,8 +146,8 @@ const passi = [
 ];
 
 const benefici = [
-  { t: "Un risultato che riconosci allo specchio", d: "Quello che chiedi viene ripetuto e confermato prima di iniziare." },
-  { t: "Prezzi chiari, comunicati prima", d: "Nessuna sorpresa al momento del conto: il costo lo sai già." },
+  { t: "Professionalità e cura del dettaglio", d: "Un approccio artigianale che rispetta il tuo stile e il tempo dedicato al servizio." },
+  { t: "Prezzi contenuti", d: "Serietà e professionalità con un rapporto qualità-prezzo apprezzato dalle recensioni." },
   { t: "Tempi rispettati", d: "Su appuntamento, per evitare attese lunghe e servizi affrettati." },
   { t: "Una forma che dura tra un taglio e l'altro", d: "Tagli costruiti per crescere bene, non solo per il primo giorno." },
 ];
